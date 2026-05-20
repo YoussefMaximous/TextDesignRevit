@@ -6,7 +6,20 @@ A lightweight Revit-like **2D architectural drafting** application in the browse
 - **Not** an ASCII renderer — the ASCII Engine is a separate export panel only
 - Revit 2026–inspired shell: ribbon, properties, project browser, view control bar, status bar
 
-## Quick start
+## Get the project from GitHub
+
+```bash
+git clone https://github.com/YoussefMaximous/TextDesign.git
+cd TextDesign
+npm install
+npm run dev
+```
+
+Alternate remote (same code): `https://github.com/YoussefMaximous/TextDesignRevit.git`
+
+`node_modules` and `dist` are not in the repo — run `npm install` after clone.
+
+## Quick start (already cloned)
 
 ```bash
 npm install
