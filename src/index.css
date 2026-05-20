@@ -1,0 +1,114 @@
+@import 'tailwindcss';
+
+:root {
+  --bg-app: #0d0d0d;
+  --bg-panel: #141414;
+  --bg-ribbon: #1e1e1e;
+  --bg-ribbon-tab: #161616;
+  --border-panel: #2a2a2a;
+  --btn-hover: #2a2a2a;
+  --btn-active: #1e3a5f;
+  --btn-active-border: #2196f3;
+
+  --vp-background: #1a1a1a;
+  --vp-floor-plan-bg: #ffffff;
+  --el-annotation-crop: #888888;
+  --vp-grid-line: #252525;
+  --el-scope-box: #3d7a3d;
+  --el-floor-plan-border: #1a1a1a;
+  --el-elevation-marker: #1a1a1a;
+
+  --el-wall: #ffffff;
+  --el-wall-fill: #808080;
+  --el-column: #5a5a5a;
+  --el-column-fill: #a8a8a8;
+  --el-floor: #8a7d6e;
+  --el-floor-fill: rgba(200, 190, 175, 0.45);
+  --el-stair: #7a6b55;
+  --el-door: #ffffff;
+  --el-door-arc: #ffffff;
+  --el-window: #ffffff;
+  --el-window-glass: #b0c8e8;
+  --el-room-fill: transparent;
+  --el-room-tag: #40a0ff;
+  --el-grid-line: #1e4a8c;
+  --el-grid-bubble-fill: #2563b8;
+  --el-grid-bubble-text: #ffffff;
+  --el-ref-plane-green: #3d8b3d;
+  --el-ref-plane-red: #c44a4a;
+  --el-working-section: #5eb8ff;
+  --el-working-section-handle: #2196f3;
+  --angle-arc: #5eb8ff;
+  --angle-arc-text: #2196f3;
+  --snap-tooltip-bg: rgba(240, 240, 240, 0.95);
+  --snap-tooltip-text: #333333;
+  --el-dimension: #4080ff;
+  --el-level: #40a060;
+  --el-column: #c0c0c0;
+
+  --sel-element: #4fc3f7;
+  --sel-box-fill: rgba(64, 128, 255, 0.08);
+  --sel-box-stroke: #4080ff;
+  --sel-box-cross-fill: rgba(255, 128, 0, 0.08);
+  --sel-box-cross-stroke: #ff8800;
+  --hover-highlight: rgba(255, 167, 38, 0.4);
+
+  --snap-endpoint: #ff0000;
+  --snap-midpoint: #ff8800;
+  --snap-intersection: #ff00ff;
+  --snap-perpendicular: #ff00ff;
+  --snap-nearest: #ff00ff;
+  --snap-center: #ff00ff;
+  --snap-parallel: #ff00ff;
+
+  --temp-dim-line: #4080ff;
+  --temp-dim-text: #4080ff;
+  --temp-dim-witness: #4080ff;
+  --temp-dim-grip: #4080ff;
+
+  --align-line: rgba(0, 220, 255, 0.5);
+
+  --text-primary: #d4d4d4;
+  --text-secondary: #7a7a7a;
+  --text-disabled: #3a3a3a;
+  --accent: #2196f3;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  font-size: 12px;
+  color: var(--text-primary);
+  background: var(--bg-app);
+  user-select: none;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+}
+
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 4px;
+}
